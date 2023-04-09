@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page_header{
+    background-color: #5c5c8a;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 88%;
+    padding-top: -10px;
+    display: inline;
+}
+img{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left:6%;
+    top:11px;
+}
+.title1{
+    color: white;
+    font-size: x-large;
+    position: absolute;
+    left: 10%;
+    top: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-right: 30px;
+}
+.fields{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    text-align: right;
+    border-style: hidden;
+}
+.title2{
+    color: white;
+    font-size: xx-large;
+}
+.page_body{
+    position: absolute;
+    left: 0%;
+    top: 12%;
+    right: 0%;
+    bottom: 4%;
+}
+.page_footer{
+    background-color: #00ed57;
+    position: absolute;
+    top:66%;
+    bottom: 2%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 200px;
+}
+.twitter{
+    color: white;
+    position: absolute;
+    left: 12%;
+    top: 18%;
+    right: 68%;
+    bottom: 2px;
+}
+.facebook{
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 18%;
+    right: 38%;
+    bottom: 5px;
+}
+.google{
+    color: white ;
+    position: absolute;
+    left: 72%;
+    top: 18%;
+    right: 8%;
+    bottom: 5px;
+    
+}
+.logo1 img{
+    width: 100px;
+    height: 100px;
+}
+.title2{
+    margin-left: 70px;
+}
+.twitterimg{
+    margin-top: 27px ;
+    margin-left: 18px;
+    width: 50px;
+    height: 50px;
+}
+.fbimg{
+    margin-top: 30px;
+    margin-left: 32%;
+}
+.gimg{
+    margin-top: 27px ;
+    margin-left: 61.4%;
+    width: 45px;
+    height: 45px;
+    
+}
