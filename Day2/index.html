@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Pop up page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>WELCOME!!!</h1>
+<div class="box" label>CLICK-></label>>
+
+<a class="button" href="#popup1"></a>
+</div>
+
+<div id="popup1" class="overlay">
+
+<div class="popup">
+ <h2>Fill the form</h2>
+ <a href="#" class="close">&times;</a>
+ <div class="content">
+
+<form>
+
+  <label>First Name:</label>
+<input type="text" placeholder=" First Name" name="firstname" required />
+<br>
+
+ <label>Last Name:</label>
+<input type="text" placeholder=" Last Name" name="lastname" required />
+<br>
+
+ <label>City:</label>
+<input type="text" placeholder="Enter your city" name="city" required />
+<br>
+
+ <label> Age:</label>
+<input type="number" placeholder="Enter your age" name="age" required />
+<br>
+
+ <label> Experience:</label>
+<input type="number" placeholder="Enter your year of experience" name="exp" required />
+<br>
+
+ <label> Dob:</label>
+<input type="date" placeholder="Enter your dob" name="day" required>
+<br>
+
+ <label>Gender:</label>
+ <br>
+ 
+ <input type="radio" id="gender1" name="gender" value="male">
+ <label for="gender1" >Male</label><br>
+ <input type="radio" name="gender" id="gender2" value="female">
+ <label for="gender2">Female</label><br>
+
+ <label>Skills:</label><br/>
+
+ <input type="checkbox" id="skill1" >
+
+ <label for="skill1">C++</label><br/>
+
+ <input type="checkbox" id="skill2" >
+
+ <label for="skill2">Java</label><br>
+
+ <input type="checkbox" id="skill3">
+
+ <label for="skill3">Python</label><br/>
+
+ <p><label>About youu:</label></p>
+
+ <textarea id="textplace" name="textplace" rows="4" cols="50">
+
+ </textarea><br />
+
+ <button type="submit">Submit</button>
+</form>
+ </div>
+</div>
+ </div>
+
+</body>
+
+</html>
