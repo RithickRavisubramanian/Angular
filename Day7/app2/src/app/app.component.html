@@ -1,0 +1,9 @@
+<app-topbox></app-topbox>
+<app-midbox></app-midbox>
+
+
+<h3>OUR PRODUCT</h3> 
+<app-botbox
+*ngFor="let x of services;let y=index"
+
+[title]="x" [description]="descriptions[y]"></app-botbox>
