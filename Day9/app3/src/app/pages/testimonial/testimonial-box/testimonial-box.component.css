@@ -1,0 +1,29 @@
+.testimonial-box{
+ text-align: center;
+ box-shadow: 10px 5px 12px;
+ box-sizing:border-box;
+ border-radius: 25px;
+ width: 50%;
+ margin-left: 25%;
+ background-color: whitesmoke;
+ padding: 5px;
+ margin-top: 50px;
+ position: relative;
+ 
+
+}
+.name{
+    margin-right:78%;
+    font-size: larger;
+    color:firebrick;
+}
+.type{
+    margin-left: 65%;
+    padding: 3px;
+    font-size: smaller;
+}
+.msg{
+    font-style: italic;
+    font-weight: 500;
+    padding: 3px;
+}

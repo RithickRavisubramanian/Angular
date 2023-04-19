@@ -1,0 +1,16 @@
+.example-card {
+    max-width: 350px;
+    float:left;
+  }
+
+  .example-header-image {
+    background-image: url('http://localhost/building.jpg');
+    background-size: cover;
+  }
+  .example-card{
+   max-width: 300px;
+   height: 350px;
+   margin: 20px;
+   float:left;
+   
+    }
