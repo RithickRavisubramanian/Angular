@@ -1,0 +1,35 @@
+.container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap:20px;
+}
+.frame{
+    padding: 1px;
+    margin: 0%;
+    font-weight: bolder;
+    font-size: small;
+}
+mat-slider {
+    width: 40px;
+}
+    
+
+.slider{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-size: small;
+    margin-top: 20%;
+}
+.full{
+    display: flex;
+}
+.sidebar{
+    padding-right: 2px;
+    border-right: 2px solid yellow;
+    height: 200vv;
+}

@@ -27,7 +27,6 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule,
     MatDialogModule
   ],
   providers: [],
