@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: .5rem;
+    font-weight: bolder;
+}
+.navbar>*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.crd{
+    padding: 0rem 1rem;
+}
+#btn{
+    font-size:small!important;
+    text-decoration: none;
+    color: black;
+    height: -5px;
+ 
+    
+
+
+}
+

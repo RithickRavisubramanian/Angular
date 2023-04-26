@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 export class HomeService {
   constructor(private http:HttpClient) { }
   getServices():Observable<any>{
-    return this.http.get("http://localhost:4500/services")
+    return this.http.get("http://localhost:3000/services")
   }
 
 
