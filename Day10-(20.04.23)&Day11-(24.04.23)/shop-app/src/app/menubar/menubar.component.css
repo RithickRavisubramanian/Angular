@@ -14,13 +14,14 @@
     padding: 0rem 1rem;
 }
 #btn{
-    font-size:small!important;
     text-decoration: none;
     color: black;
-    height: -5px;
- 
-    
+    font-size: 16px;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 5px;
 
+    
 
 }
 

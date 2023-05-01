@@ -15,14 +15,14 @@ export class HomeComponent {
     "Cosmetics"
   ]
   selected="All";
-  productlist:any;
+  prodlist:any;
   min_v=100;
   max_v=10000;
   constructor(ps:ProductService){
     ps.getProducts().subscribe(
       {
-        next: (data:any) => this.productlist = data,
-        error:()=>this.productlist = []
+        next: (data:any) => this.prodlist = data,
+        error:()=>this.prodlist = []
       }
     )
   }

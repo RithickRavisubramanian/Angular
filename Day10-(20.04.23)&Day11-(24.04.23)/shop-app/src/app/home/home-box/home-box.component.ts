@@ -6,7 +6,7 @@ import { Component,Input } from '@angular/core';
   styleUrls: ['./home-box.component.css']
 })
 export class HomeBoxComponent {
-  @Input() product:any;
+  @Input() products:any;
   
   
 

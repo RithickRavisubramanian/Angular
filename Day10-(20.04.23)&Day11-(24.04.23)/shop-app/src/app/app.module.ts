@@ -14,6 +14,9 @@ import { RouterModule } from '@angular/router';
 import { MenubarComponent } from './menubar/menubar.component';
 import { ComplaintsComponent } from './complaints/complaints.component'
 import { AppRoutingModule } from './app-routing.module';
+import { DetailsComponent } from './home/details/details.component';
+import { ReviewComponent } from './home/review/review.component';
+import { ReviewPipe } from './pipes/review.pipe';
 
 
 
@@ -26,6 +29,9 @@ import { AppRoutingModule } from './app-routing.module';
     TypefilterPipe,
     MenubarComponent,
     ComplaintsComponent,
+    DetailsComponent,
+    ReviewComponent,
+    ReviewPipe,
     
     
 

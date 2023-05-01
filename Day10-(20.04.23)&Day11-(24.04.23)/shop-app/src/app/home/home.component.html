@@ -17,6 +17,6 @@
     <p>{{min_v | currency:'USD'}} to {{max_v | currency:'USD'}}</p>
     </div>
     <div class="container">
-    <app-home-box *ngFor="let x of productlist | typefilter:selected | pricefilter:min_v:max_v " [product]="x"></app-home-box>
+    <app-home-box *ngFor="let x of prodlist | typefilter:selected | pricefilter:min_v:max_v " [products]="x"></app-home-box>
 </div>
 </div>

@@ -11,10 +11,13 @@
     margin-right: 8px;
   }
   
-  [dir='rtl'] .example-option-img {
-    margin-right: 0;
-    margin-left: 8px;
-  }
   .form{
     background-color: whitesmoke;
+  }
+  .ct{
+    background-color: yellow;
+    
+  }
+  h1{
+    margin-left: 45%;
   }
